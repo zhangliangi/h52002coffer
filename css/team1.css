@@ -1,0 +1,38 @@
+#header{height: 80px;}
+#header .header-logo{margin-left: 46px;}
+#header .header-nav{line-height: 77px;text-align: center; display: flex;justify-content: space-between;}
+#header .header-nav li{width: 150px; }
+#header .header-nav a:hover{ color: #866961;border-bottom:3px #866961 solid ;}
+#header .header-nav li a{display: block; color: #333333;font-size:20px ;}
+#banner{width: 100%;height: 400px; margin: 0 auto;overflow: hidden;}
+#banner img{position: relative;left: 50%;margin-left: -960px;}
+/* #banner .v{position: absolute;left: 434px;top:223px;}
+#banner .title{width: 563px;height: 160px; text-align: center;color: white;}
+#banner .title p:nth-of-type(1){font-size: 36px;height: 55px;}
+#banner .title p:nth-of-type(2){font-size: 36px;margin-top: 12px;}
+#banner .title p:nth-of-type(3){margin-top: 16px;}
+#banner .title p:nth-of-type(4){margin-top: 13px;} */
+#about .about-title{margin: 31px 97px 0px 98px;border-bottom:1px #d5d5d5 solid ;  width: 1000px;height: 36px;}
+#about .about-title .left{height: 35px;position: relative;top:-4px;}
+#about .about-title .left .text {height: 100%; display: flex;display: inline-block; margin-left: 4px;}
+#about .about-title .left .text span{position: relative;top:-9px;left: 2px;}
+#about .about-title .left .text p:nth-of-type(1){font-size: 16px;color: #333333;text-indent: 10px;}
+#about .about-title .left .text p:nth-of-type(2){font-size: 12px;color: #e3e3e3;position: relative;top:-9px;}
+#about .about-title .right{margin-top: 14px;}
+#about .content{margin: 27px 97px 40px 98px;}
+#about .content .jieshao{width: 595px; margin-left: 24px; }
+#about .content .jieshao .jieshao_text{text-indent: 25px;line-height: 24px;color: #c1c1c1;margin-top: 27px;}
+#about .content .jieshao .jieshao_tiltle h4{font-size: 16px;color: #333333;}
+#about .content .jieshao .jieshao_tiltle p{font-size: 14px; color: #999999;margin-top: 2px;}
+#about .content .jieshao .jieshao_text p:nth-of-type(2){margin-top: 25px;}
+
+#about .team_img{margin-top: 45px;}
+#about .team_img .x{margin-left: 3px;height: 293px;}
+#about .team_img .x .text{width: 144px;height: 70px; text-align: center; background-color: #3c3c3c;position: relative;top:-70px}
+#about .team_img .x .text h4{ font-size: 14px;margin-right:24px ;color: #ffffff;position: relative;top: 10px;}
+#about .team_img .x .text p{font-size: 14px;margin-right:13px ;margin-top: 20px;color: #999999;}
+#about .team_img .x .text p:nth-of-type(2){display: none;}
+#foot{width: 100%; height: 80px;background-color: #866961;}
+#foot .foot_text{ display: flex;justify-content: space-between;align-items: center;}
+#foot .foot_text p{font-family: 黑体; margin-left: 67px;line-height: 80px;text-align: center;color: #f0eeed;}
+#foot .foot_text img{width: 142px; height: 52px; margin-right: 240px;margin-top: 10px;}

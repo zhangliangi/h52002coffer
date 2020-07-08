@@ -1,0 +1,36 @@
+#header{height: 80px;}
+#header .header-logo{margin-left: 46px;}
+#header .header-nav{line-height: 77px;text-align: center; display: flex;justify-content: space-between;}
+#header .header-nav li{width: 150px; }
+#header .header-nav a:hover{ color: #866961;border-bottom:3px #866961 solid ;}
+#header .header-nav li a{display: block; color: #333333;font-size:20px ;}
+#banner{width: 100%;height: 400px; margin: 0 auto;overflow: hidden;}
+#banner img{position: relative;left: 50%;margin-left: -960px;}
+/* #banner .v{position: absolute;left: 434px;top:223px;}
+#banner .title{width: 563px;height: 160px; text-align: center;color: white;}
+#banner .title p:nth-of-type(1){font-size: 36px;height: 55px;}
+#banner .title p:nth-of-type(2){font-size: 36px;margin-top: 12px;}
+#banner .title p:nth-of-type(3){margin-top: 16px;}
+#banner .title p:nth-of-type(4){margin-top: 13px;} */
+#about .about-title{margin: 31px 30px 0px 30px;border-bottom:1px #f2f2f2 solid ;  width: 1140px;height: 36px;}
+#about .about-title .left{height: 35px;position: relative;top:-4px;}
+#about .about-title .left .text {height: 100%; display: flex;display: inline-block;}
+#about .about-title .left .text span{position: relative;top:-9px;left: 2px;}
+#about .about-title .left .text p:nth-of-type(1){font-size: 16px;color: #333333;text-indent: 10px;}
+#about .about-title .left .text p:nth-of-type(2){font-size: 12px;color: #e3e3e3;position: relative;top:-9px;}
+#about .about-title .right{margin-top: 14px;}
+#about .content{margin: 20px 30px 70px 30px;width: 1140px;}
+#about .content h3{font-size: 20px;color: #333333;text-align: center;font-weight: normal;}
+#about .content p:nth-of-type(1){margin-top: 40px;color: #333333;}
+#about .content .page{margin-top: 25px;}
+#about .content .jieshao{width: 1124px; margin-top: 25px;font-size: 14px; text-indent: 2em;line-height: 30px;color: #8e8e8e;}
+#about .content .jieshao p:nth-of-type(1){margin-top: 20px;}
+#about .content .jieshao p:nth-of-type(2){margin-top: 31px;}
+#about .content .jieshao p:nth-of-type(3){margin-top: 31px;}
+#about .content .jieshao p:nth-of-type(4){margin-top: 33px;}
+#about .content .jieshao p:nth-of-type(5){margin-top: 31px;}
+#about .content .jieshao p:nth-of-type(6){margin-top: 29px;}
+#foot{width: 100%; height: 80px;background-color: #866961;}
+#foot .foot_text{ display: flex;justify-content: space-between;align-items: center;}
+#foot .foot_text p{font-family: 黑体; margin-left: 67px;line-height: 80px;text-align: center;color: #f0eeed;}
+#foot .foot_text img{width: 142px; height: 52px; margin-right: 240px;margin-top: 10px;}

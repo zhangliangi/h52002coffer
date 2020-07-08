@@ -1,0 +1,53 @@
+#header{height: 80px;}
+#header .header-logo{margin-left: 46px;}
+#header .header-nav{line-height: 77px;text-align: center; display: flex;justify-content: space-between;}
+#header .header-nav li{width: 150px; }
+#header .header-nav a:hover{ color: #866961;border-bottom:3px #866961 solid ;}
+#header .header-nav li a{display: block; color: #333333;font-size:20px ;}
+.bannerbox {width: 100%;top: -10px; overflow: hidden;position: relative;}			
+.Homebanner{width:500%;/* overflow: hidden; */position: relative;left: 0;transition: all 2s;}	
+.Homebanner>img {height: 600px; float: left;width: 20%;}
+.bannerbox>button { width: 42px;height: 69px;border: 1px solid #000;background: rgba(0, 0, 0, .5); font-size: 36px; /* border-radius: 50%; */color: #fff;cursor: pointer;outline: none;position: absolute;top: 50%;opacity: .0;margin-top: -20px;}
+.bannerbox>button:nth-of-type(1) {left: 20px;}
+.bannerbox>button:nth-of-type(2) {right: 20px;}
+.bannerbox>button:hover { opacity: .8; background: rgba(0, 0, 0, .7);}
+.bannerbox>button:active { opacity: .8; background: rgba(0, 0, 0, .9);}
+.marright{margin-right: 0px !important;opacity: 1 !important;}
+ .marleft{margin-left: 0px !important;opacity: 1 !important;}
+.Homedot{position:absolute;z-index:5;  left: auto; left: 880px; bottom: 20px; text-align: right;}
+.Homedot a{ display: block; float: left; width: 20px; height: 20px; border: 2px solid #fff; border-color: hsla(0,0%,100%,.3); border-radius: 10px; overflow: hidden;
+background: rgba(0,0,0,.4); opacity: 1;margin: 0 4px;}
+.Homedot a.cur{background: hsla(0,0%,100%,.4); border-color: rgba(0,0,0,.4);}
+/* #banner .v{position: absolute;left: 434px;top:223px;}
+#banner .title{width: 563px;height: 160px; text-align: center;color: white;}
+#banner .title p:nth-of-type(1){font-size: 36px;height: 55px;}
+#banner .title p:nth-of-type(2){font-size: 36px;margin-top: 12px;}
+#banner .title p:nth-of-type(3){margin-top: 16px;}
+#banner .title p:nth-of-type(4){margin-top: 13px;} */
+#about{ width: 1000px; height: 640px;}
+#about .about-title{margin: 31px 30px 0px 31px;width: 1000px; border-bottom:1px #d5d5d5 solid ;height: 36px;cursor: pointer;}
+#about .about-title .left{height: 35px;position: relative;top:-4px;}
+#about .about-title .left .text {height: 100%; display: flex;display: inline-block; }
+#about .about-title .left .text:nth-of-type(2){margin-left: 38px; }
+#about .about-title .left .text:nth-of-type(3){margin-left: 38px; }
+#about .about-title .left .text span{position: relative;top:-9px;left: 2px;}
+#about .about-title .left .text p:nth-of-type(1){font-size: 16px;color: #333333;text-indent: 10px;}
+#about .about-title .left .text p:nth-of-type(2){font-size: 12px;color: #e3e3e3;position: relative;top:-9px;}
+#about .about-title .right{margin-top: 14px;}
+#about .content{margin: 27px 30px 40px 31px;width: 1100px;position: absolute;display:none;}
+#about #kai{display: block;}
+#about .content .jieshao{width: 535px; margin-left: 37px;margin-top: 12px;font-size: 16px; text-indent: 2em;line-height: 30px;color: #333333;}
+#about .content .jieshao p:nth-of-type(2){margin-top: 30px;}
+/* #about .content1{margin: 27px 97px 40px 98px;width: 1100px;position: absolute;display: none;}
+#about .content1 .jieshao1{width: 547px; margin-left: 24px;margin-top: 12px;font-size: 16px; text-indent: 2em;line-height: 30px;color: #333333;}
+#about .content1 .jieshao1 p:nth-of-type(2){margin-top: 26px;}
+#about .content1 .jieshao1 p:nth-of-type(3){margin-top: 26px;}
+#about .content1 .jieshao1 p:nth-of-type(4){margin-top: 26px;}
+#about .content2{margin: 27px 97px 40px 98px;width: 1100px; display:none}
+#about .content2 .jieshao2{width: 550px; margin-left: 14px;margin-top: 12px;font-size: 16px; text-indent: 2em;line-height: 30px;color: #333333;}
+#about .content2 .jieshao2 p:nth-of-type(2){margin-top: 28px;}
+#about .content2 .jieshao2 p:nth-of-type(3){margin-top: 31px;text-indent: 0em;} */
+#foot{width: 100%; height: 80px;background-color: #866961;}
+#foot .foot_text{ display: flex;justify-content: space-between;align-items: center;}
+#foot .foot_text p{font-family: 黑体; margin-left: 67px;line-height: 80px;text-align: center;color: #f0eeed;}
+#foot .foot_text img{width: 142px; height: 52px; margin-right: 240px;margin-top: 10px;}

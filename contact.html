@@ -1,0 +1,147 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-05-24 10:46:01
+ * @LastEditTime: 2020-06-08 09:47:07
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \咖啡\contact.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=3.0&ak=gyCluBWE5qSZBAReesqjdC2tXyDAfWaQ"></script>
+    <style>
+         #allmap{width:995px;height:336px}
+    </style>
+</head>
+<body>
+    <header id="header" class="container clear">
+        <div class="header-logo l">
+            <a href="#"><img src="./iamges/inco.png" alt=""></a>
+        </div>
+        <div id="nav" class="header-nav  r">
+            <ul class="header-nav clear">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li ><a href="about.html">关于我们</a></li>
+                <li><a href="introduce.html">产品介绍 </a></li>
+                <li><a href="team.html">我们团队</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="bannerbox">
+        <div class="Homebanner">
+             <img src="./iamges/banner1.png">
+                    <img src="./iamges/banner2.png">
+                    <img src="./iamges/banner3.png">
+                    <img src="./iamges/banner4.png">
+                    <img src="./iamges/banner5.png">
+                 </div>
+                 <button name="btn"><</button>
+                 <button name="btn">></button>
+            <div class="Homedot">
+                <a href="javascript:;" class="cur" name="di"  sh="0"></a>
+                <a href="javascript:;" name="di" sh="1"></a>
+                <a href="javascript:;" name="di" sh="2"></a>
+                <a href="javascript:;" name="di" sh="3"></a>
+                <a href="javascript:;" name="di" sh="4"></a>
+            </div>
+    </div> 
+    <div id="contact" class="container">
+        <div class="contact-title">
+            <div class="left l">
+                <div class="text">
+        <p>联系我们</p>
+        <span><img src="./iamges/竖线.png" alt=""></span>
+          <p>Company profile</p></div>
+         
+        </div>
+          <div class="right r">
+        <p>当前位置><span style="color: #a9a9a9">首页></span>联系我们</p>
+    </div>
+        </div>  
+        <div class="content clear">
+            
+            <div class="page ">
+                <div id="allmap"></div>
+            </div>
+                <div class="contact_text l">
+                    <div class="text l">
+                        <div class="img1 l"> 
+                        <img src="./iamges/phone.png" alt="">
+                        </div>
+                       <div class="t l"> 
+                        <div class="t-te">
+                           <p>咨询热线</p>
+                           <span><img src="./iamges/竖线.png" alt=""></span>
+                        <p>Information Hotline</p>
+                    </div>
+                    <div class="t-td">
+                        <p>重庆：+86 023-867-7848</p>
+                        <p>(09：30~18：30 北京时间）</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="text l">
+                        <div class="img1 l"> 
+                        <img src="./iamges/map.png" alt="">
+                        </div>
+                       <div class="t l"> 
+                        <div class="t-te">
+                           <p>公司地址</p>
+                           <span><img src="./iamges/竖线.png" alt=""></span>
+                        <p>Company address</p>
+                        </div>
+                        <div class="t-td">
+                        <p>地址：重庆大坪龙湖时代天街3号写字楼2407室</p>
+                        <p>(09：30~18：30 北京时间）</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text l">
+                        <div class="img1 l"> 
+                        <img src="./iamges/email.png" alt="">
+                        </div>
+                       <div class="t l"> 
+                        <div class="t-te">
+                           <p>公司邮箱</p>
+                           <span><img src="./iamges/竖线.png" alt=""></span>
+                        <p>E-mail</p>
+                        </div>
+                        <div class="t-td">
+                        <p>邮箱：info@haitouglobal.com</p>
+                        <p>(09：30~18：30 北京时间）</p>
+                        <div>
+                    </div>
+                    </div>
+                    </div> 
+            </div>
+                </div>  
+    </div>
+    </div>
+    <div id="foot" class="container-fluid clear">
+        <div class="foot_text container">
+            <p>COPYRIGHT © 重庆DUZU有限公司 | DUZU备案号 33010602001878 号 版权所有：重庆戈登有限公司</p>
+            <img src="./iamges/foot.png" alt="">
+        </div>
+       
+    </div>
+    <script src="./js/banner.js"></script>
+    <script>
+           var map = new BMap.Map('allmap');
+	map.centerAndZoom(new BMap.Point(106.491281,29.537841), 12);
+	map.enableScrollWheelZoom(true);
+	// 覆盖区域图层测试
+	map.addTileLayer(new BMap.PanoramaCoverageLayer());
+
+	var stCtrl = new BMap.PanoramaControl(); //构造全景控件
+	stCtrl.setOffset(new BMap.Size(20, 20));
+	map.addControl(stCtrl);//添加全景控件
+    </script>
+</body>
+</html>
